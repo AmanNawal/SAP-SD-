@@ -15,6 +15,7 @@
 | 8     | Storage Location     | 4      | OX09             | MM Consultant        |
 | 9     | Shipping point       | 4      | OVXD             | SD Consultant        |
 
+---
 
 ## Creating a company code
 
@@ -29,6 +30,7 @@
 
 Table - T001 (Check IN0N)
 
+---
 
 ## Create a sales organization
 
@@ -43,6 +45,8 @@ Table - T001 (Check IN0N)
 
 Table - TVKO (Check IN0N and IN01)
 
+---
+
 ## Create a distribution channel
 
 ***Path***
@@ -54,6 +58,8 @@ Table - TVKO (Check IN0N and IN01)
 <img width="415" height="359" alt="Image" src="https://github.com/user-attachments/assets/a77ede7b-8269-4537-b85a-bb86d3bb5ca5" />
 
 * Got to TVTW and check ZA, ZB and ZC.
+
+---
 
 ## Create a division
 
@@ -72,6 +78,7 @@ Table - TVKO (Check IN0N and IN01)
 
 * Now check ZT, ZD and ZY in table TSPA.
 
+---
 
 ### Create a sales office
 
@@ -84,6 +91,9 @@ Table - TVKO (Check IN0N and IN01)
 * After maintaining the entries and address click on save
 
 * Check in table TVBUR for IN0N and IN01.
+
+---
+
 
 ### Create a sales group
 
@@ -100,6 +110,8 @@ Table - TVKO (Check IN0N and IN01)
 <img width="730" height="392" alt="Image" src="https://github.com/user-attachments/assets/77d07227-7471-400d-8503-91193b81a547" />
 
 
+---
+
 ## Create a plant
 
 ***Path***
@@ -113,7 +125,7 @@ Table - TVKO (Check IN0N and IN01)
 
 <img width="1231" height="512" alt="Image" src="https://github.com/user-attachments/assets/2fa262cd-865f-42e8-9ce2-2486dab50a52" />
 
-
+---
 
 ## Create a storage location
 
@@ -128,6 +140,8 @@ Table - TVKO (Check IN0N and IN01)
 * After maintaining check the entries on table T001L for 0010, 0020 and 0030.
 
 <img width="711" height="610" alt="Image" src="https://github.com/user-attachments/assets/d86aa898-83e9-4b1b-95fa-579a86cff7ed" />
+
+---
 
 ## Set up shipping point
 
