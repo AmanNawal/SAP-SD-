@@ -1,16 +1,16 @@
 ## Assignment of Enterprise structure
 
-• Assign sales organization to company code.
-• Assign distribution channel to sales organization.
-• Assign division to sales organization.
-• Set up sales area.
-• Assign sales office to sales area.
-• Assign sales group to sales office.
-• Assign sales organization, distribution channel, and plant.
-• Assign sales area to credit control area. (We will cover the credit control area
+* Assign sales organization to company code.
+* Assign distribution channel to sales organization.
+* Assign division to sales organization.
+* Set up sales area.
+* Assign sales office to sales area.
+* Assign sales group to sales office.
+* Assign sales organization, distribution channel, and plant.
+* Assign sales area to credit control area. (We will cover the credit control area
 assignment in detail in Chapter 10.)
-• Assign plant to company code.
-• Assign shipping point to plant.
+* Assign plant to company code.
+* Assign shipping point to plant.
 
 
 ***Assign sales organization to company code***
