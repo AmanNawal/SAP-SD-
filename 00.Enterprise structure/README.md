@@ -105,14 +105,14 @@ Table - TVKO (Check IN0N and IN01)
 ***Path***
 
 * SPRO -> Enterprise structure -> Definition -> Logistics - General -> Define, copy, delete, check plant
-
 * The plant is created in logistics general because it is used across logistics modules like MM, PP and SD.
-* 
+  
 <img width="897" height="670" alt="Image" src="https://github.com/user-attachments/assets/d5fa7407-2b67-4682-9abf-80033d9a76be" />
 
 * Now, check in table T001W for 0010, 020 and 0030.
 
 <img width="1231" height="512" alt="Image" src="https://github.com/user-attachments/assets/2fa262cd-865f-42e8-9ce2-2486dab50a52" />
+
 
 
 ## Create a storage location
