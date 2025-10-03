@@ -12,13 +12,14 @@ assignment in detail in Chapter 10.)
 * Assign plant to company code.
 * Assign shipping point to plant.
 
+---
 
-* ***Assign sales organization to company code***
+***Assign sales organization to company code***
 
 <img width="785" height="318" alt="Image" src="https://github.com/user-attachments/assets/bf480480-2bf7-42da-9069-9e560275a99b" />
 
 
-* ***Assign distribution channel to sales organization***
+***Assign distribution channel to sales organization***
 
 <img width="947" height="422" alt="Image" src="https://github.com/user-attachments/assets/ef217e20-e949-46ff-93dd-d0b05beb1fad" />
 
