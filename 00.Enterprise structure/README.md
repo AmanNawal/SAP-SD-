@@ -30,6 +30,16 @@
 
 Table - T001 (Check IN0N)
 
+***imp:*** We would have to define the global parameters for the company code in FI module like fiscal year variant, posting period variant, field status variant etc, so that the company code is ready for posting the financial transactions. T code - OBY6.
+
+<img width="865" height="603" alt="Image" src="https://github.com/user-attachments/assets/df183548-9929-4cfd-bd4e-22ae7f8f1d2a" />
+
+
+* Also, we would need a reconciliation account in GL for the customer and vendor transactions to be posted in the company code. T code - OBY2.
+* We can copy the pre existing company code ***1000*** to create a new company code.
+
+<img width="464" height="401" alt="Image" src="https://github.com/user-attachments/assets/c128675a-887f-4c42-950c-cb92ee49382d" />
+
 ---
 
 ## Create a sales organization
@@ -155,6 +165,23 @@ Table - TVKO (Check IN0N and IN01)
 <img width="955" height="515" alt="Image" src="https://github.com/user-attachments/assets/c586d195-ebfb-491c-b9ec-2efd23fccd35" />
 
 * check the entries in table TVST for ZZBH, ZZKA and ZZUP.
+  
+---
+
+## Company
+
+* A company is a organizational unit which will group multiple company codes together into one.
+* A company is created in FI module.
+
+***Path***
+
+* SPRO -> Enterprise structure -> Definition -> Financial Accounting -> Define company
+
+<img width="909" height="521" alt="Image" src="https://github.com/user-attachments/assets/a1804d16-f0e6-4cff-87ce-ec4b9f3a2ac0" />
+
+* Company created CS01.
+
+
 
 
 
