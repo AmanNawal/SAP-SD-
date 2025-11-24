@@ -78,6 +78,14 @@ SPRO -> Enterprise structure -> Assignment -> Sales and Distribution -> Assign s
 
 ---
 
+## Assign company to company codes
+
+* As of now we have a single company code and a single company. But in real time scenarios there will be multiple company codes and companies.
+
+<img width="671" height="340" alt="Image" src="https://github.com/user-attachments/assets/a4863975-c4c7-429b-b404-b7933fdf3b0f" />
+
+---
+
 ## Check the Enterprise structure
 
 * Use the T code EC01 to get the structural overview of the enterprise structure.
