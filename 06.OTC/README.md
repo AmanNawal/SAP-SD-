@@ -77,20 +77,23 @@
 ***Next step - create item category for Castrol quotation doc***
 
 
-* copy standard quotation item category ***AGN*** and create Castrol quotation item category ***ACS*** using **T code - VOV7**.
-
+* copy standard quotation item category ***AGN*** and create Castrol quotation item category ***ACS*** using **T code - VOV7**.  
+  
+  
 <img width="462" height="298" alt="Image" src="https://github.com/user-attachments/assets/7669cddb-b15a-4e04-b8bb-506e31c05cfe" />
 
 * Now do item category determination for quotation doc using **T code - VOV4**.
 
 <img width="645" height="689" alt="Image" src="https://github.com/user-attachments/assets/d8eff9a1-526a-422a-b44f-738affe4fc42" />
 
+---
 
-***Next step - create schedule line category for quotation item category***
+***Next step - create schedule line category for quotation item category***  
 
 * Copy the standard schedule line category ***BN*** and create Castrol quotation schedule line category ***CL*** using **T code - VOV6**.
 * Now assign this schedule line category ***CL*** to quotation item category ***ACS*** using **T code - VOV5**.
-* 
+    
+
 <img width="496" height="300" alt="Image" src="https://github.com/user-attachments/assets/e785b3a7-40bc-45bf-ba09-65cf783557f0" />
 
 ---
@@ -100,5 +103,43 @@
 ---
 
 <img width="1270" height="627" alt="Image" src="https://github.com/user-attachments/assets/83bdab93-1ab9-4447-8bb0-59772dc63410" />
+
+---
+
+### Create Sales order document
+
+* Create a sales order document type for Castrol by copying the standard docment type OR ***T code - VOV8, sales doc type - CSOR***
+* Assign this sales document type to sales area using **T code - OVAZ**.
+
+***Next step - create item category for Castrol sales order doc***
+
+* Create a Castrol sales order item category ***CAN*** by copying standard sales order item category ***TAN*** using **T code - VOV7**.
+
+---
+
+***Do item category determination for sales order doc CSOR***
+
+<img width="530" height="339" alt="Image" src="https://github.com/user-attachments/assets/f1167b54-dc31-40b3-839d-453babe1dfc6" />
+
+---
+
+***Next step - create schedule line category for sales order item category***
+
+* Copy the standard schedule line category ***CN*** or ***CP*** and create Castrol sales order schedule line category ***CW*** using **T code - VOV6**.
+* Now assign this schedule line category ***CW*** to sales order item category ***CAN*** using **T code - VOV5**.  
+
+
+
+<img width="603" height="361" alt="Image" src="https://github.com/user-attachments/assets/c524b4c8-1666-4ad0-8160-e03f1f2a1ac9" />
+
+---
+
+***Now create a sales order using T code - VA01***
+
+<img width="1365" height="713" alt="Image" src="https://github.com/user-attachments/assets/d162fa1e-b418-456e-82a9-bc11a0ba1abf" />
+
+---
+
+<img width="1344" height="655" alt="Image" src="https://github.com/user-attachments/assets/8cfccf5a-e7e6-421b-9a85-92cdc840424f" />
 
 ---
