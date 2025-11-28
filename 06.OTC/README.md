@@ -143,3 +143,55 @@
 <img width="1344" height="655" alt="Image" src="https://github.com/user-attachments/assets/8cfccf5a-e7e6-421b-9a85-92cdc840424f" />
 
 ---
+
+
+### Delivery Document creation
+
+* Create a delivery document type by copying standard document type ***LF*** using **T code - OVLK, delivery doc type - CSLF**.
+
+<img width="911" height="351" alt="Image" src="https://github.com/user-attachments/assets/f1641f2c-cc84-45da-b108-26292c3bb954" />
+
+* Now assign this delivery doc type to sales order using **T code - VOV8**.
+* ***imp*** - This assignment ensures that when we create a delivery for sales order type ***CSOR*** it picks delivery doc type ***CSLF*** automatically and we don’t have to manually select delivery doc type while creating delivery.
+
+<img width="949" height="715" alt="Image" src="https://github.com/user-attachments/assets/e118f75c-61ca-4c49-894c-84e091f90f7c" />  
+
+---
+
+<img width="581" height="585" alt="Image" src="https://github.com/user-attachments/assets/abbdd084-5981-4545-bda1-6f7ee3adaacf" />
+
+
+---
+
+***Now create a delivery using T code - VL01N or directly from sales order using T code - VA01***
+
+<img width="1365" height="713" alt="Image" src="https://github.com/user-attachments/assets/237974e4-20f9-459e-950b-3435c3dd3452" />  
+
+---
+
+### Billing Document creation
+
+* Create a billing document type by copying standard document type ***F2*** using **T code - VOFA, billing doc type - CSF2**.
+
+<img width="626" height="306" alt="Image" src="https://github.com/user-attachments/assets/d23067c2-3cb3-49d2-89cf-ed664464c720" />
+
+---
+
+* Now maintain the biiling type ***CSF2*** in sales order doc type ***CSOR*** using **T code - VOV8**. So that we don't have to manually enter billing type while creating billing document every time.
+
+<img width="984" height="421" alt="Image" src="https://github.com/user-attachments/assets/f557f9a1-39c3-4e6a-8612-90181260c7ef" />
+
+---
+
+<img width="1010" height="723" alt="Image" src="https://github.com/user-attachments/assets/61f398fa-7007-4fd4-a497-56305c3bf4ab" />
+
+---  
+
+* Now create a billing document using T code - VF01.
+
+<img width="1164" height="517" alt="Image" src="https://github.com/user-attachments/assets/76b749d9-edce-4b3c-953c-e4bf1316e188" />
+
+---
+
+
+
