@@ -3,6 +3,46 @@
 
 ### Configuration Steps
 
+
+
+| Document type Castrol | Custom Document Type |    Standard Document Type |
+|-----------------------|----------------------|---------------------------|
+| Inquiry               | CSIN                 | IN                        |
+| Quotation             | CQT                  | QT                        |
+| Sales Order           | CSOR                 | OR                        |
+| Delivery              | CSLF                 | LF                        |
+| Billing               | CSF2                 | F2                        |
+
+---
+
+  
+
+| Document type Castrol | Custom Item Category | Standard Item Category |
+|-----------------------|----------------------|------------------------|
+| Inquiry               | CSAN                 | AFN                    |
+| Quotation             | ACS                  | AGN                    |
+| Sales Order           | CAN                  | TAN                    |
+
+---
+
+  
+
+| Document type Castrol | Custom Schedule Line Category | Standard Schedule Line Category |
+|-----------------------|-------------------------------|---------------------------------|
+| Inquiry               | CE                            | AT                              |
+| Quotation             | CL                            | BN                              |
+| Sales Order           | CW                            | CN                              |
+---
+
+
+  
+
+| Document type Castrol | Custom Document Type | Standard Document Type |
+|-----------------------|----------------------|---------------------------|
+| Delivery              | CSLF                 | LF                        |
+| Billing               | CSF2                 | F2                        |
+---
+
 ### Inquiry document creation
 
 * T code - VOV8.
@@ -39,10 +79,10 @@
 ***Next Step - create a schedule line category for inquiry item category***
 
 * T code - VOV6.
-* Satndard schedule line category for inquiry is ***AN***.
-* Copy it and create Castrol inquiry schedule line category ***CM***.
+* Satndard schedule line category for inquiry is ***AT***.
+* Copy it and create Castrol inquiry schedule line category ***CE (corrected previous value CM)***.
 * Now link this schedule line category ***AN*** to inquiry item category ***CSAN*** created in previous step.
-* Now assign the newly created schedule line category ***CM*** to inquiry item category ***CSAN***. using **T code - VOV5**. So that when we create an inquiry with item category ***CSAN*** it will automatically pick schedule line category ***CM***.
+* Now assign the newly created schedule line category ***CM*** to inquiry item category ***CSAN***. using **T code - VOV5**. So that when we create an inquiry with item category ***CSAN*** it will automatically pick schedule line category ***CE***.
 
 <img width="571" height="336" alt="Image" src="https://github.com/user-attachments/assets/8b1a4e91-e63a-4e47-a097-50cbedb9eea4" />
 
