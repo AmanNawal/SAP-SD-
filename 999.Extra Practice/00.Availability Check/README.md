@@ -93,7 +93,7 @@
 
 * ***Stocks section*** - tells the system which stocks can be used for availability checks safety stock, transfer stock etc.
 
-* ***Check without RLT*** - When checked ensures that the system does not proposes future dates as confirm delivery dates in schedule line hence, the system does not confirms any specific dates for delivery.
+* ***Check without RLT*** - When checked ensures that the quantities are not confirmed if the stock is not available. If unchecked this, system will confirm the quantities based on future dates based on RLT. 
 
 ![Full information](https://www.slideshare.net/slideshow/availability-check-in-sap-sd-43046031/43046031)
 
