@@ -8,6 +8,7 @@
 * Replacedment of defective goods.
 * Marketing campaigns where free items are given to customers.
 * Gift to the customers.
+* Since there's a possibility that we are providing the goods free of charge maybe for samples or promotion, there could be a situation where we can provide the base price of the material for free but the taxes and freight can be charged to the customer. 
 
 
 ### Configuraion
@@ -42,4 +43,32 @@
 ---
 
 * Now assign the billing and delivery document to sales order in VOV8.
+
+<img width="847" height="699" alt="Image" src="https://github.com/user-attachments/assets/5540d3f7-0082-4572-8496-7819d7bb29e9" />
+
+---
+
 * Do item catgory determination for newly created free of charge order type in VOV4.
+
+<img width="577" height="390" alt="Image" src="https://github.com/user-attachments/assets/5d1b13ff-962d-48c7-9553-2268fafdab49" />
+
+---
+
+### Subsequent delivery free of charge
+
+* Unlike, Free of charge delivery subsequent delivery free of charge delivery is used to send goods to the customer as compensation. Because seomthing was wrong with original. Basically we replace or resend the goods to the customer without any charge.
+
+* Subsequent delivery free of chatge must reference a previous order or delivery.
+
+## Configuration
+
+* Create a new sales document type for subsequent delivery free of charge by copying standard sales doc type ***SDF*** in t code ***VOV8*** and create your own sales doc type ***CSDF***.
+* Use previously created free of charge item delivery document ***CSFL*** in this sales doc type as the concept of subsequent delivery free of charge is based on free of charge delivery.
+* Now assign the delivery document and billing document to newly created sales doc type in VOV8 ***CSFL*** and ***CF8***.
+* Make sure that the sales area is setup in t code ***OVAZ*** for newly created sales doc type.
+* We have a new sales doc type so we would have to determined item in VOV4 and schdule line in VOV5.
+* Now define the copy control parameters in ***VTAF*** copy the pre existing configut=ration between ***CR*** and ***F2*** because similar how credit memo request is created wrt a invoice we have to reference the invoice and create a SDF sales document.
+* Assign **G2N** intem cat target to source **CKLN** in the item cat section of copy control in .
+
+* Now you can create subsequent delivery free of charge sales document by referencing the original invoice or delivery document.
+
