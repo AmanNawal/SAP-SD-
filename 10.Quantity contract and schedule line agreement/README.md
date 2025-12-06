@@ -1,4 +1,4 @@
-\## Quantity Contract
+## Quantity Contract
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-\## Scheduling agreement
+## Scheduling agreement
 
 
 
@@ -20,14 +20,14 @@
 
 
 
-\### Configuration for quantity contract
+### Configuration for quantity contract
 
 
 
-* Create a new quantity contract type by copying standard quantity contract \*\*\*QC\*\*\* and then create new quantity contract  \*\*\*CSQC\*\*\*.
-* Extends the new sales document to sales area in \*\*\*T code: OVAZ\*\*\*.
-* Now create a new item category \*\*\*CKMN\*\*\* By copying the standard item category \*\*\*KMN\*\*\*.
-* Now do item category determination in \*\*\*VOV4\*\*\*
+* Create a new quantity contract type by copying standard quantity contract ***QC*** and then create new quantity contract  ***CSQC***.
+* Extends the new sales document to sales area in ***T code: OVAZ***.
+* Now create a new item category ***CKMN*** By copying the standard item category ***KMN***.
+* Now do item category determination in ***VOV4***
 * Now create a contract 
 
 
@@ -64,16 +64,16 @@
 
 
 
-\### Configuration for Scheduling agreement
+### Configuration for Scheduling agreement
 
 
 
-* Create a new scheduling agreement doc type \*\*\*CSDS\*\*\* by copying standard scheduling agreement \*\*\*DS\*\*\* in VOV8.
-* Extends the new sales document to sales area in \*\*\*T code: OVAZ\*\*\*.
-* Now create a new item category \*\*\*CLPN\*\*\* By copying the standard item category \*\*\*LPN\*\*\*.
-* Now do the item category determination in \*\*\*VOV4\*\*\*.
-* Copy the standard schedule line category \*\*\*CN\*\*\* and create your own schedule line cat \*\*\*CC\*\*\*.
-* Now do schedule line determination in \*\*\*VOV5\*\*\*.
+* Create a new scheduling agreement doc type ***CSDS*** by copying standard scheduling agreement ***DS*** in VOV8.
+* Extends the new sales document to sales area in ***T code: OVAZ***.
+* Now create a new item category ***CLPN*** By copying the standard item category ***LPN***.
+* Now do the item category determination in ***VOV4***.
+* Copy the standard schedule line category ***CN*** and create your own schedule line cat ***CC***.
+* Now do schedule line determination in ***VOV5***.
 * Now you can create a scheduling agreement and assign multiple delivery dates for material.
 
 
@@ -109,11 +109,11 @@
 
 
 * As we move ahead for the next delivery which is for date 06.06.2026 we again see one delivery pending.
-* \*\*\*This means that we cannot deliver the goods until we arrive the delivery date or after delivery date\*\*\*.
+* ***This means that we cannot deliver the goods until we arrive the delivery date or after delivery date***.
 
 
 
-\*\*\*FOR 06.06.2026\*\*\*
+***FOR 06.06.2026***
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-\*\*\*FOR 06.12.2026\*\*\*
+***FOR 06.12.2026***
 
 
 
