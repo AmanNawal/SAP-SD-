@@ -1,4 +1,4 @@
-\## Value Contract General
+## Value Contract General
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-\## Value contract material specific 
+## Value contract material specific 
 
 
 
@@ -20,19 +20,19 @@
 
 
 
-\### Configuration Value contract general
+### Configuration Value contract general
 
 
 
-* In T code: VOV8 copy the standard doc type \*\*\*WK1\*\*\* and create you own value contract named \*\*\*CWK1\*\*\*
+* In T code: VOV8 copy the standard doc type ***WK1*** and create you own value contract named ***CWK1***
 * Extend the sales area for sales doc type ZWK1.
-* Now create your own contract item category by copying the standard category \*\*\*WKN\*\*\* and create \*\*\*CWKN\*\*\*  
+* Now create your own contract item category by copying the standard category ***WKN*** and create ***CWKN***  
 
 
 
 
 
-* \*\*\*Contract release control - B\*\*\* ensures that an error pops up incase if the value exceeds the contract overall value.  
+* ***Contract release control - B*** ensures that an error pops up incase if the value exceeds the contract overall value.  
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-* Now do item category determination in VOV4 and assign Castrol item category \*\*\*CWKN\*\*\* to combination of \*\*\*CWK1\*\*\* and \*\*\*NORM\*\*\*.
+* Now do item category determination in VOV4 and assign Castrol item category ***CWKN*** to combination of ***CWK1*** and ***NORM***.
 
 
 
@@ -58,11 +58,11 @@
 
 
 
-\### Checking the configuration workings
+### Checking the configuration workings
 
 
 
-* Create a contract \*\*\*CWK1\*\*\*
+* Create a contract ***CWK1***
 
 
 
@@ -98,23 +98,23 @@
 
 
 
-\### Configuration Value contract material specific
+### Configuration Value contract material specific
 
 
 
-* In T code - VOV8 copy the standard contract \*\*\*WK2\*\*\* and create your own contract type \*\*\*CWK2\*\*\*
-* Go to \*\*\*T code - OVAZ\*\*\* and assign the sales area for the newly created contract type \*\*\*CWK2\*\*\*.
-* Now create your own contract item category by copying the standard category \*\*\*WKN\*\*\* and create \*\*\*CWK2\*\*\*.
-* Now do item category determination in VOV4 and assign Castrol item category \*\*\*CWK2\*\*\* to combination of \*\*\*CWK2(Sales doc)\*\*\* and \*\*\*NORM\*\*\*.
+* In T code - VOV8 copy the standard contract ***WK2*** and create your own contract type ***CWK2***
+* Go to ***T code - OVAZ*** and assign the sales area for the newly created contract type ***CWK2***.
+* Now create your own contract item category by copying the standard category ***WKN*** and create ***CWK2***.
+* Now do item category determination in VOV4 and assign Castrol item category ***CWK2*** to combination of ***CWK2(Sales doc)*** and ***NORM***.
 
 
 
-\### Checking the configuration working
+### Checking the configuration working
 
 
 
 * Now create a new material specific value contract.
-* \*\*\*NOTE\*\*\* in material specific contract it is mandatory to enter a material alongside the target value.
+* ***NOTE*** in material specific contract it is mandatory to enter a material alongside the target value.
 
 
 
@@ -131,6 +131,7 @@
 
 
 ---
+
 
 
 
