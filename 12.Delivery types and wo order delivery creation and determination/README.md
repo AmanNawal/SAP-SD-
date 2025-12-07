@@ -1,4 +1,4 @@
-\## Delivery types and controls
+## Delivery types and controls
 
 
 
@@ -16,41 +16,12 @@
 
 
 
-\*\*\*Delivery Tables\*\*\*
+***Delivery Tables***
 
 
 
-* The tables for header data is \*\*\*LIKP\*\*\*.
-* The table for item data is \*\*\*LIPS\*\*\*.
-
-
-
----
-
-
-
-\*\*\*The T code for defining delivery types is OVLK\*\*\*  
-
-
-
-
-
-* The path for defining delivery types is: \*\*\*SPRO -> Logistics execution -> Shipping -> Delivery -> Define delivery types.\*\*\*  
-
-
-
-\*\*\*Delivery Types\*\*\*  
-
-
-
-* The standard delivery type is: \*\*\*LF\*\*\*
-* Cash sales delivery type is: \*\*\*BV\*\*\*
-* Return Delivery type: \*\*\*LR\*\*\*
-* STO delivery type is: \*\*\*NL\*\*\*
-* STO return delivery type is: \*\*\*NLR\*\*\*
-* Intercompany STO delivery type is: \*\*\*NLCC\*\*\*
-* Intercompany STO return delivery type is: \*\*\*NCR\*\*\*
-* Delivery without order reference is: \*\*\*LO\*\*\*
+* The tables for header data is ***LIKP***.
+* The table for item data is ***LIPS***.
 
 
 
@@ -58,7 +29,36 @@
 
 
 
-\*\*\*We can create a delivery wrt and order or even without referencing order.
+***The T code for defining delivery types is OVLK***  
+
+
+
+
+
+* The path for defining delivery types is: ***SPRO -> Logistics execution -> Shipping -> Delivery -> Define delivery types.***  
+
+
+
+***Delivery Types***  
+
+
+
+* The standard delivery type is: ***LF***
+* Cash sales delivery type is: ***BV***
+* Return Delivery type: ***LR***
+* STO delivery type is: ***NL***
+* STO return delivery type is: ***NLR***
+* Intercompany STO delivery type is: ***NLCC***
+* Intercompany STO return delivery type is: ***NCR***
+* Delivery without order reference is: ***LO***
+
+
+
+---
+
+
+
+***We can create a delivery wrt and order or even without referencing order.
 
 
 
@@ -72,7 +72,7 @@
 
 
 
-* You can use delivery type \*\*\*LO\*\*\* to create a delivery without referencing an order.
+* You can use delivery type ***LO*** to create a delivery without referencing an order.
 
 
 
@@ -84,15 +84,15 @@
 
 
 
-\## Creating delivery without sales order.
+## Creating delivery without sales order.
 
 
 
 
 
-* In T code - \*\*\*OVLK\*\*\* copy the standard delivery type \*\*\*LO\*\*\* and create your own delivery type \*\*\*CSLO\*\*\*.
-* No create a delivery in \*\*\*VL01N\*\*\*
-* We can see in the snippet below that the delivery item category is \*\*DLN\*\*
+* In T code - ***OVLK*** copy the standard delivery type ***LO*** and create your own delivery type ***CSLO***.
+* No create a delivery in ***VL01N***
+* We can see in the snippet below that the delivery item category is **DLN**
 
 
 
@@ -104,9 +104,9 @@
 
 
 
-* Create your own item category by copying standard delivery item category \*\*\*LO\*\*\* and create a new delivery item category \*\*\*CSLO\*\*.
-* Also copy the standard delivery item category \*\*\*DLN\*\*\* in VOV7 and create a new item category \*\*\*CDLN\*\*\*.
-* Now check in \*\*\*OVLP\*\*\* if the item category \*\*\*CDLN\*\*\* is present or not
+* Create your own item category by copying standard delivery item category ***LO*** and create a new delivery item category ***CSLO**.
+* Also copy the standard delivery item category ***DLN*** in VOV7 and create a new item category ***CDLN***.
+* Now check in ***OVLP*** if the item category ***CDLN*** is present or not
 
 
 
@@ -118,7 +118,7 @@
 
 
 
-* Now do delivery item determination \*\*\*T code - 0184\*\*\*
+* Now do delivery item determination ***T code - 0184***
 
 
 
@@ -130,7 +130,7 @@
 
 
 
-* When we create a new delivery without referencing a sales order i.e., delivery type \*\*\*CSLO\*\*\* we can see that the new item category proposed is \*\*\*CDLN\*\*\*.
+* When we create a new delivery without referencing a sales order i.e., delivery type ***CSLO*** we can see that the new item category proposed is ***CDLN***.
 
 
 
@@ -144,7 +144,7 @@
 
 
 
-\## Delivery item category customization (T code - 0VLP or OVLP)
+## Delivery item category customization (T code - 0VLP or OVLP)
 
 
 
@@ -162,11 +162,11 @@
 
 
 
-\## Delivery Item category determination (T code - 0184)
+## Delivery Item category determination (T code - 0184)
 
 
 
-* The item categories for delivery are automatically determined via T code \*\*\*0184\*\*\*
+* The item categories for delivery are automatically determined via T code ***0184***
 
 
 
@@ -178,7 +178,7 @@
 
 
 
-* \*\*\*NOTE - The delivery item category comes into play only if the order is being create without referencing any sales order, incase if the order is being referenced then the item category of the order would be considered. For ex the below delivery uses \*\*\*CAN\*\*\* because the sales order it references uses \*\*\*CAN\*\*\* as item category.
+* ***NOTE*** - The delivery item category comes into play only if the order is being create without referencing any sales order, incase if the order is being referenced then the item category of the order would be considered. For ex the below delivery uses ***CAN*** because the sales order it references uses ***CAN*** as item category.
 
 
 
@@ -197,6 +197,7 @@
 
 
 ---
+
 
 
 
