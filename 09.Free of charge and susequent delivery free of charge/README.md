@@ -68,7 +68,7 @@
 * Make sure that the sales area is setup in t code ***OVAZ*** for newly created sales doc type.
 * We have a new sales doc type so we would have to determined item in VOV4 and schdule line in VOV5.
 * Now define the copy control parameters in ***VTAF*** copy the pre existing configut=ration between ***CR*** and ***F2*** because similar how credit memo request is created wrt a invoice we have to reference the invoice and create a SDF sales document.
-* Assign **G2N** intem cat target to source **CKLN** in the item cat section of copy control in .
+* Assign **G2N - credit memo item** item cat target to source **CKLN - SDF item catk** in the item cat section of copy control in .
 
 * Now you can create subsequent delivery free of charge sales document by referencing the original invoice or delivery document.
 
