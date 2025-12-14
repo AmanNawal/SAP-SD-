@@ -55,4 +55,3 @@
 ### Configuration Dynamic Rounding Profile
 
 * **Dynamic rounding profile** gives different features. Rounding Rules plays very important role in Dynamic rounding profile. Dynamic rounding profile is calculated based on percentage.
-* 

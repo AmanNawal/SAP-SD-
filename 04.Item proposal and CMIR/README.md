@@ -3,7 +3,7 @@
 
 ### CMIR(Customer Material Info Record)
 
-* T code: VD01, VD02, VD03
+* T code: VD51, VD52, VD53
 * Stands for customer material info record.
 * We use CMIR if the customers are placing orders with their own material numbers.
 * By using CMIR we link the customer material number to our internal material number then while creating sales order if the user enters the customer material number system automatically fetches our internal material number. 
