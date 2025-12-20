@@ -1,10 +1,10 @@
-\## Plant \& Shipping point \& Storage location determinations
+## Plant & Shipping point & Storage location determinations
 
 
 
 
 
-\### Plant determination
+### Plant determination
 
 
 
@@ -20,7 +20,7 @@
 
 
 
-\### Shipping point determination (OVL2)
+### Shipping point determination (OVL2)
 
 &nbsp;	
 
@@ -36,7 +36,7 @@
 
 
 
-\### Storage Location determination (OVL3)
+### Storage Location determination (OVL3)
 
 
 
@@ -45,4 +45,5 @@
 &nbsp;	2. Shipping point (Shipping point from sales order)
 
 &nbsp;	3. Plant (plant from sales order)	
+
 
