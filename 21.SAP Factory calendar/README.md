@@ -1,4 +1,4 @@
-\## SAP Factory calendar
+## SAP Factory calendar
 
 
 
@@ -10,11 +10,11 @@
 
 
 
-\## Configuration
+## Configuration
 
 
 
-\*\*\*Firstly create a holiday calendar in SCAL\*\*\*
+***Firstly create a holiday calendar in SCAL***
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-* Assign holidays to newly created calendar \*\*\*CZ\*\*\*
+* Assign holidays to newly created calendar ***CZ***
 
 
 
@@ -72,7 +72,7 @@
 
 
 
-* Now create a new factory calendar \*\*\*CZ\*\*\* and assign the holiday calendar to the factory calendar.
+* Now create a new factory calendar ***CZ*** and assign the holiday calendar to the factory calendar.
 
 
 
@@ -145,6 +145,7 @@
 ---
 
 * Now you would be able too the entry in ***assign holiday***.
+
 
 
 
