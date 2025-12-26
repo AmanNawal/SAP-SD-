@@ -110,8 +110,14 @@ The T-code to assign pricing procedure or pricing procedure determination: **OVK
 
 * To create a new access sequence click on ***new entries*** in access sequence screen.
 * Create a new access sequence ***ZCAS***
+* The condition tables are to be placed from most specific to most general format.
+* ***Exclusion*** field ensures that as soon as the system finds a records coresponding to a condition table fields, it ends the search and does NOT continues searching for conditionr records in more condition atble fields.
 
 <img width="1004" height="431" alt="Image" src="https://github.com/user-attachments/assets/b90bb526-6deb-461c-99f5-0f692280035b" />
+
+---
+
+<img width="1046" height="453" alt="Image" src="https://github.com/user-attachments/assets/c2fb560f-208a-4d3e-ad10-b28f74c78093" />
 
 ---
 
