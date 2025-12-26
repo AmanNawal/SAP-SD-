@@ -152,3 +152,7 @@ The T-code to assign pricing procedure or pricing procedure determination: **OVK
 <img width="1002" height="406" alt="Image" src="https://github.com/user-attachments/assets/70f8e7df-20dc-47b8-af52-8e31cc301f57" />
 
 ---
+
+* Now create a sales order, where we can see that the Base condition has the values maintained as per condition record.
+
+<img width="1260" height="640" alt="Image" src="https://github.com/user-attachments/assets/161a82c4-a800-49a8-9432-9af058f50e2f" />
