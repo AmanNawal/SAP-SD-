@@ -12,8 +12,6 @@
 * Condition class represents the type of condition, whether it is a price, discount/surcharge, tax, freight, etc.
 * It helps in categorizing the condition types based on their functionality in pricing.
 
-Hello 👋
-
 In **SAP SD pricing**, the **Condition Class** in **Condition Type (V/06)** defines the **business meaning and technical behavior** of a condition. It tells SAP **what kind of pricing element** the condition is and **how it should be treated** in pricing, account determination, and follow-on processes.
 
 ### Common Condition Classes and Their Meaning
