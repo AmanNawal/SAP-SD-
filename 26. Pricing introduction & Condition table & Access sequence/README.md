@@ -162,3 +162,32 @@ The T-code to assign pricing procedure or pricing procedure determination: **OVK
 * Now create a sales order, where we can see that the Base condition has the values maintained as per condition record.
 
 <img width="1260" height="640" alt="Image" src="https://github.com/user-attachments/assets/161a82c4-a800-49a8-9432-9af058f50e2f" />
+
+---
+
+***Create condition types and place them in pricing procedure***
+
+* Go to v/06 to create condition types.
+* Copy the following condition types
+* Base price: **PR00 - ZCPR**
+* Material specific discount: ***K004 - ZCK4***
+* Freight condition type: ***KF00 - ZKF0***
+* Tax condition type: ***MWST - ZCSG SGST TAX*** 
+* Tax condition type: ***MWST - ZCIG IGST  TAX*** 
+* Tax condition type: ***MWST - ZCUG UGST TAX*** 
+
+***Now place all of these condition types in a pricing procedure***
+
+* Create a new pricing procedure ***ZCSP*** in ***V/08***
+
+<img width="832" height="304" alt="Image" src="https://github.com/user-attachments/assets/32bbeb3e-2297-43bd-9a46-fcdf296d05f9" />
+
+---
+
+<img width="1365" height="481" alt="Image" src="https://github.com/user-attachments/assets/7313307e-9fb3-4aed-8c62-c310f8b546f4" />
+
+---
+
+<img width="1365" height="455" alt="Image" src="https://github.com/user-attachments/assets/e9d9197b-ed48-4387-b808-b3ba6cb2472c" />
+
+---
