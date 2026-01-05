@@ -168,3 +168,89 @@ In **SAP SD pricing**, the **Condition Class** in **Condition Type (V/06)** defi
 ---
 
 ***Applies for qty relation and calculation types as well***
+
+
+### Master data
+
+* ***Valid from / to*** - defines the validity period for condition records of this condition type.
+* This configuration will automatically set the validity period when creating condition records.
+
+---
+
+<img width="1140" height="690" alt="Image" src="https://github.com/user-attachments/assets/f84e1792-8150-40b8-92fb-6bfa02ef4e9c" />
+
+---
+
+<img width="675" height="149" alt="Image" src="https://github.com/user-attachments/assets/f7cd2d4e-a8da-409c-8b52-c15076568bdf" />
+
+---
+
+* The validity period is automatically set when creating condition records for this condition type.
+
+---
+
+<img width="1001" height="261" alt="Image" src="https://github.com/user-attachments/assets/406fb0c0-a997-4cb0-8cbb-095d56994073" />
+
+---
+
+
+### Delete from Database
+
+* It defines whether condition records of this condition type can be deleted from the database.
+
+---
+<img width="904" height="681" alt="Image" src="https://github.com/user-attachments/assets/fd2f6250-f44f-488b-8877-fef6d77bccfb" />
+---
+
+* Only the deletion mark is set and the record is still present in the DB.
+
+---
+<img width="1004" height="718" alt="Image" src="https://github.com/user-attachments/assets/cb64d76e-4fde-4ce8-9cc9-a8e410b9b002" />
+---
+
+* When we cahnge the config to permament deletion and delete the condition record we can see that the record is removed from the DB.
+
+---
+<img width="701" height="153" alt="Image" src="https://github.com/user-attachments/assets/116326f0-aa76-4b69-80d5-c7fc784b66b0" />
+---
+
+---
+<img width="1022" height="688" alt="Image" src="https://github.com/user-attachments/assets/c5f2947c-5555-4ac9-8475-6143774198a1" />
+---
+
+### RefConType
+
+* Is used in intercompany billing scenarios.
+* The condition type maintained in this field acts as a reference from which the value is copied to our target condition type.
+
+
+---
+<img width="935" height="620" alt="Image" src="https://github.com/user-attachments/assets/34ef709d-e483-4664-9b39-b00762600cf3" />
+---
+
+
+### Scales
+
+
+* Scales allow us to define different condition values based on quantity or value ranges.
+* When scales are activated for a condition type, we can maintain multiple condition records with varying values depending on the scale criteria.
+* ***Scale basis*** - defines on which basis the scales will be applied, whether on quantity or value(Mainly used for discount cond type) or percent etc.
+* ***Check value*** - will determine of the scale values are to maintained in ascending or descending order.
+* 
+---
+
+<img width="698" height="145" alt="Image" src="https://github.com/user-attachments/assets/2b7c5b12-7bd8-44c6-a1e1-3431d189cb79" />
+
+---
+
+* Scales maintained for condition record ***ZCPR***
+
+---
+<img width="720" height="681" alt="Image" src="https://github.com/user-attachments/assets/925ce84b-d433-451a-828e-c8a82bbbbacc" />
+---
+
+* Condition record value incoming wrt to scale values/quantity.
+
+---
+<img width="1170" height="681" alt="Image" src="https://github.com/user-attachments/assets/75beabd4-d66f-49bb-bb98-0f6fdccf7359" />
+---
