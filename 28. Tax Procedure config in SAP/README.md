@@ -128,6 +128,7 @@
 ### Step 5: Define tax determination rule in SD
 
 * SPRO -> IMG -> Sales and distribution -> Basic functions -> Taxes -> Define tax determination rules.
+* Will determine which conditions are visible at customer and material master.
 
 <img width="749" height="554" alt="Image" src="https://github.com/user-attachments/assets/ee95510b-0425-42c0-9a3c-fbd2866dde93" />
 
