@@ -293,3 +293,5 @@ Material → Sales order item → Delivery item → Invoice item
 <img width="828" height="355" alt="Image" src="https://github.com/user-attachments/assets/3569c64e-bf09-42ed-9a44-05a822a913de" />
 
 ---
+
+* SAME PROCESS APPLIES FOR DELIVERY AN THEN FOR BILLING ITEM LEVEL.
