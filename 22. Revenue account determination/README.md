@@ -30,13 +30,15 @@ ans. Revenue A/C debit to Customer account Credit
 
 * Goto the above SPRO path and click on ***Check master data relevant for account assigment***
 * Here we can define Account assignment groups based of master data we would first use ***material master***, so click on it.
+* Generally accounting determination is done based on material types ex Finished goods, services, scraps etc.
 * Now define the account assignment group just as followed below.
 
 <img width="930" height="467" alt="Image" src="https://github.com/user-attachments/assets/6f09375e-6cb5-4168-bfb7-9b89a236c514" />
 
 ---
 
-* Now define the account group for customer master click on ***customers: account assignment group***
+* Now define the account group for customer master click on ***customers: account assignment group***.
+* In this case our clients has only two types of customer i.e. domestic customer and internationcal customer.
 
 <img width="1160" height="530" alt="Image" src="https://github.com/user-attachments/assets/c7afdb03-8afe-4e24-b8a9-dd8493a82101" />
 
