@@ -59,6 +59,8 @@ ans. Revenue A/C debit to Customer account Credit
   * Account assignment group (for customer defined above)
   * Sales org
 
+* These combinations would be used for hitting a GL account, for example when the sale org is IN0N, Account assignment group (material) is FG (Finished goods) and account assignment group (Customer) is domestic customer with account key ***ERL*** then a particular GL will hit.
+
 <img width="916" height="604" alt="Image" src="https://github.com/user-attachments/assets/ed0cded3-a926-4c99-a29d-08463c86d675" />
 
 ---
@@ -117,6 +119,8 @@ ans. Revenue A/C debit to Customer account Credit
 
 ***NEXT STEP - In same SPRO path define and assign an account key***
 
+* ***imp*** We SD consultants do not assign the account ket associated with TAX conditions as it is generally handled by FI consultants.
+
 * An Account Key is a technical control key used by SAP to decide which type of G/L account a pricing condition should post to during billing (VF01 / VF04).
 
   * It does NOT contain a G/L account itself
@@ -128,13 +132,35 @@ ans. Revenue A/C debit to Customer account Credit
 
 * Now in the same option click on ***Assign acoount key***
 
-* Now assign the newly created account keys to your pricing procedure like below, was not able to do it for mine because of condition types missing..
+* Now assign the newly created account keys to your pricing procedure like below, you can also do the same in V/08
 
-<img width="524" height="323" alt="Image" src="https://github.com/user-attachments/assets/41049f5f-6cb2-4b11-9d77-b21b97a5d017" />
+<img width="756" height="546" alt="Image" src="https://github.com/user-attachments/assets/eb87450b-1cf3-4a09-b4a0-302948a7196d" />
 
 ---
 
 ***NEXT STEP - In the same spro path click on assign GL accounts***
+
+<img width="542" height="499" alt="Image" src="https://github.com/user-attachments/assets/6a833605-587f-4ae1-9c19-55e61700249d" />
+
+---
+
+* Assign the entries as per created above and ask FI team for GL
+
+<img width="612" height="311" alt="Image" src="https://github.com/user-attachments/assets/f9206091-8df2-42ad-94d1-633091b1ca59" />
+
+---
+
+* In this case we will create out own GL accounts  Using T code ***FS00***.
+* Enter the GL number you want to create along with the company code, click on template.
+* In this case we are creating GL by taking reference to pre existing GL of company code 1000 of company code 1000.
+* GL account created ***116588***
+
+
+<img width="904" height="719" alt="Image" src="https://github.com/user-attachments/assets/fbd67e53-3fd5-4262-b4be-51eac009a280" />
+
+---
+
+
 
 
 
