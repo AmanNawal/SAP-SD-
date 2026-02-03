@@ -1,4 +1,4 @@
-## Revenue account determination
+## Revenue account determination (T code - VKOA)
 
 * It is the process of determining the G/L account while posting invoice values into accounting.
 * While creating invoice in background system creates an accounting document and the accounting entry is ***Customer A/C Debit to Revenue A/C Credit***
@@ -153,12 +153,44 @@ ans. Revenue A/C debit to Customer account Credit
 * In this case we will create out own GL accounts  Using T code ***FS00***.
 * Enter the GL number you want to create along with the company code, click on template.
 * In this case we are creating GL by taking reference to pre existing GL of company code 1000 of company code 1000.
-* GL account created ***116588***
+* GL account ***7899*** for SERVICE, GL account ***7900*** for DISCOUNTS, GL account ***7901*** for FREIGHT
 
+<img width="905" height="637" alt="Image" src="https://github.com/user-attachments/assets/172b65c3-cb0e-4c13-a186-4cb3016b25ac" />
+
+---
+
+<img width="808" height="581" alt="Image" src="https://github.com/user-attachments/assets/c4f5a0a8-b6a9-40fe-873e-77dc598e0ee3" />
+
+---
+
+<img width="819" height="551" alt="Image" src="https://github.com/user-attachments/assets/409464e6-7900-431f-8707-cd3064f8e40c" />
+
+---
 
 <img width="904" height="719" alt="Image" src="https://github.com/user-attachments/assets/fbd67e53-3fd5-4262-b4be-51eac009a280" />
 
 ---
+
+* Now assign the GL accounts created above in T code ***VKOA*** as per below.
+
+<img width="930" height="266" alt="Image" src="https://github.com/user-attachments/assets/bbc7eabc-5fb3-46f4-9cfa-85013d1e182d" />
+
+---
+
+* Make sure the account assignment group of both material and customer are maintained in respective manner.
+
+
+***Define tax postings***
+
+<img width="784" height="625" alt="Image" src="https://github.com/user-attachments/assets/2277288a-1448-4820-ad17-78413d227f68" />
+
+---
+
+<img width="1072" height="693" alt="Image" src="https://github.com/user-attachments/assets/91bb3e15-e7a0-46ac-ad39-a7d3cfb354d3" />
+
+---
+
+
 
 
 
