@@ -153,28 +153,17 @@ ans. Revenue A/C debit to Customer account Credit
 * In this case we will create out own GL accounts  Using T code ***FS00***.
 * Enter the GL number you want to create along with the company code, click on template.
 * In this case we are creating GL by taking reference to pre existing GL of company code 1000 of company code 1000.
-* GL account ***7899*** for SERVICE, GL account ***7900*** for DISCOUNTS, GL account ***7901*** for FREIGHT
+* GL account ***7902*** for SERVICE, GL account ***7903*** for DISCOUNTS, GL account ***7904*** for FREIGHT
 
-<img width="905" height="637" alt="Image" src="https://github.com/user-attachments/assets/172b65c3-cb0e-4c13-a186-4cb3016b25ac" />
 
----
-
-<img width="808" height="581" alt="Image" src="https://github.com/user-attachments/assets/c4f5a0a8-b6a9-40fe-873e-77dc598e0ee3" />
 
 ---
 
-<img width="819" height="551" alt="Image" src="https://github.com/user-attachments/assets/409464e6-7900-431f-8707-cd3064f8e40c" />
 
----
-
-<img width="904" height="719" alt="Image" src="https://github.com/user-attachments/assets/fbd67e53-3fd5-4262-b4be-51eac009a280" />
-
----
 
 * Now assign the GL accounts created above in T code ***VKOA*** as per below.
 
-<img width="930" height="266" alt="Image" src="https://github.com/user-attachments/assets/bbc7eabc-5fb3-46f4-9cfa-85013d1e182d" />
-
+<img width="740" height="326" alt="Image" src="https://github.com/user-attachments/assets/5145b3cb-5e0b-421d-8bdb-e77df4d2687a" />
 ---
 
 * Make sure the account assignment group of both material and customer are maintained in respective manner.
@@ -190,7 +179,11 @@ ans. Revenue A/C debit to Customer account Credit
 
 ---
 
+***Now create a invoice and check the accounting entry in FB03/VF03***
 
+<img width="846" height="505" alt="Image" src="https://github.com/user-attachments/assets/a4902547-60de-40b6-9dd8-025bf20bffe7" />
+
+---
 
 
 
