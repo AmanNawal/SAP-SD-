@@ -148,6 +148,10 @@ Automatic Free Goods: **OR → NORM → FREE → TAN → TANN**
 
 * If we change the free goods from 1 to 3 we can see that instead of creating a separate line item for free goods the system includes the free goods quantity in the main item line and deducts the value of free goods from main item value. 
 
+<img width="1078" height="339" alt="Image" src="https://github.com/user-attachments/assets/f17b3091-59df-45df-b1ef-e418cec984de" />
+
+---
+
 * In the sales order below we can see that the free goods are included in the main item with overall quantity haveing 6 qty free goods and 17 qty main item and the value of free goods 6*15 = 90 is deducted from main item value.
 
 <img width="1154" height="451" alt="Image" src="https://github.com/user-attachments/assets/bd3c0d99-745f-4da6-a544-8810b5ef7f6d" />
@@ -155,6 +159,34 @@ Automatic Free Goods: **OR → NORM → FREE → TAN → TANN**
 ---
 
 <img width="1134" height="562" alt="Image" src="https://github.com/user-attachments/assets/d00466b7-4a60-4e75-bdee-a41e0c83fb55" />
+
+---
+
+***For Exclusive free goods determination***
+
+* In inclusice free goods we can provide free goods but the catch is that those goods have to be same as main item that means it should same material.
+* Exclusive free goods determination we can provide different material as free goods.
+* Goto ***VBN2*** and click on exclusive free goods.
+
+<img width="952" height="361" alt="Image" src="https://github.com/user-attachments/assets/d80d8837-5621-4c2c-b2d3-c1493cccd728" />
+
+---
+
+* Maintain 2 in free goods category and add a material which is to be proposed as free goods.
+
+<img width="1156" height="378" alt="Image" src="https://github.com/user-attachments/assets/880213f8-baa6-45b1-93c0-148127d76e7f" />
+
+---
+
+* Now create a sales order and check if a new item is created successfully with condition type ***R100***
+
+<img width="1143" height="454" alt="Image" src="https://github.com/user-attachments/assets/3b741fb9-7e91-4ce6-9e0a-e41e49789472" />
+
+---
+
+<img width="1090" height="661" alt="Image" src="https://github.com/user-attachments/assets/b75a2556-0b3d-45c2-8e09-7546491c2556" />
+
+---
 
 
 
