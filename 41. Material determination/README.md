@@ -200,3 +200,19 @@ If it header pricing
 <img width="1181" height="559" alt="Image" src="https://github.com/user-attachments/assets/34e27219-76e5-4b07-9dfb-8ab97a99db2e" />
 
 ---
+
+<img width="1101" height="712" alt="Image" src="https://github.com/user-attachments/assets/3c820641-dd1d-4075-bfc7-5fd2c6ae065d" />
+
+---
+
+* Similarly in T code ***VB01*** create an exclusion record for a customer.
+
+<img width="884" height="371" alt="Image" src="https://github.com/user-attachments/assets/7c34ec7e-3c85-4a73-b119-ed9f8c9b34bf" />
+
+---
+
+* Now try to create a sales order for this customer with the excluded material.
+
+<img width="850" height="720" alt="Image" src="https://github.com/user-attachments/assets/a4a23b32-7843-42ca-bb9d-880c30f0186b" />
+
+---
