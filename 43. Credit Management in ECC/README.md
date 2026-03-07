@@ -131,7 +131,7 @@ SPRO -> Enterprise structure -> Assignment -> Financial accounting -> Assign com
 
 ### Define Risk categories
 
-SPRO -> Accounts receivable and accounts payable -> Credit Management -> Credit control account -> Define risk categories.
+SPRO -> Financial Accounting(New) -> Accounts receivable and accounts payable -> Credit Management -> Credit control account -> Define risk categories.
 
 * Create 3 risk categories ***High risk, Medium risk and Low risk***.
 
@@ -141,7 +141,7 @@ SPRO -> Accounts receivable and accounts payable -> Credit Management -> Credit 
 
 ### Define credit check groups
 
-SPRO -> Sales and distrinution -> Credit management/risk management -> Credit management -> Define credit groups.
+SPRO -> Sales and distribution -> Basic functions -> Credit management/risk management -> Credit management -> Define credit groups.
 
 <img width="456" height="314" alt="Image" src="https://github.com/user-attachments/assets/df368d6d-84ab-4558-9e40-727a83932190" />
 
@@ -216,3 +216,8 @@ Low risk customer - 100412
 <img width="830" height="480" alt="Image" src="https://github.com/user-attachments/assets/f210b348-0880-410c-9d24-073af4fef1f1" />
 
 ---
+
+
+* After this Create sales order for all 3 customers and check the behavior of the system for all 3 customers.
+
+* DID NOT THROW AND ERROR IN SCREEN IN MY CONFIG. HOWEVER, IN FD32 we can see the credit limit updating based on the document open quanitities.
