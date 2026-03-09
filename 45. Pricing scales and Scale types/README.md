@@ -109,3 +109,45 @@ Used in freight pricing.
 
 ---
 
+
+***Scale type***
+
+* In SAP SD Pricing, the Scale Type determines how the system applies pricing values when scale levels are defined in a condition record.
+* When no values are maintained by default scale type uses a from scale in condition records.
+* When maintained with B the 'from' scale changes to 'to' scale in condition records.
+
+<img width="530" height="428" alt="Image" src="https://github.com/user-attachments/assets/62c557d9-2912-4e4d-ba0a-defaf0f971cb" />
+
+* for example in the snippet below
+
+* 1 1000 is applied
+* 2 - 10 2000 is applied
+* 11 - 20 3000 is applied
+* 21 - 10000 4000 is applied
+
+<img width="501" height="335" alt="Image" src="https://github.com/user-attachments/assets/faa345af-4836-4800-8f90-38e03e69ac80" />
+
+***Graduated scale***
+
+* In SAP SD Pricing, a Graduated Scale is a scale type where different rates are applied to different portions of the quantity/value rather than applying one rate to the entire quantity.
+
+* For example in the snippet below. The quantity used in order is 50.
+* For the first quantity the value would be 1000.
+* For 2 - 10 (total 9 units) the value would be 2000.
+* For 11 - 30 (total 20 units) the value would be 3000.
+* For 31 - 40 (Total 10 units) the value would be 4000.
+* For 41 - 50 (total 10 units) the value would be 5000.
+
+<img width="777" height="376" alt="Image" src="https://github.com/user-attachments/assets/e8af159d-5ecf-464e-9ca7-7daa007765e5" />
+
+
+* All of these values will be added together to get the total value for 50 units.
+
+<img width="691" height="389" alt="Image" src="https://github.com/user-attachments/assets/56bbea13-2b3c-4d45-81e7-006516ae73bb" />
+
+* In the snippet above we can see HL00 condition type is interfacing multiple times into sales document this is because Graduated scale maintained.
+
+<img width="547" height="429" alt="Image" src="https://github.com/user-attachments/assets/719314ad-f5fc-4d75-b748-3326a92d2334" />
+
+
+

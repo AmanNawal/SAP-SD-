@@ -47,6 +47,15 @@ Sales Order Lifecycle using a Status Profile:
 * Order locked if **REJECTED**
 
 
+### How does status profile prevents all users from generating susequent documents like delivery and billing until the order is approved?
+
+
+* In status profile we have a field ***Auth code*** where we assign an object ID created by ABAP team, these auth code are then assigned to users who are authorized to make release documents.
+
+<img width="814" height="366" alt="Image" src="https://github.com/user-attachments/assets/8b43e209-3e30-4af7-a794-f6ae522cac33" />
+
+---
+
 ## Configuration of status profile
 
 * SPRO -> Sales and distribution -> Sales -> Sales document -> Define and assign status profile.
@@ -163,6 +172,11 @@ Sales Order Lifecycle using a Status Profile:
 ---
 
 * Now we can do PGI successfully.
+
+### Follow the same steps as above incase if the status profile is to be mainatined at item level.
+
+
+
 
 
 

@@ -136,3 +136,6 @@ If M5 is entered in a sales order → **system error**
 <img width="869" height="429" alt="Image" src="https://github.com/user-attachments/assets/2306af28-e797-4f16-803a-3ffde24eb3b5" />
 
 ---
+
+
+* Now create a sales order 
